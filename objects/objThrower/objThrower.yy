@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "objThrower",
     "eventList": [
-        
+        {
+            "id": "013805f3-c6aa-42c0-8e08-1528a331cdcb",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 3,
+            "m_owner": "eb42775a-09cc-42f7-b3d5-a9c143b2f587"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -61,7 +70,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "10",
             "varName": "controller_base_dex",
             "varType": 1
         },
@@ -120,6 +129,62 @@
             "value": "0",
             "varName": "y_displace",
             "varType": 1
+        },
+        {
+            "id": "d17f02a3-4880-41de-8cd6-247995740e2f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "sample_window",
+            "varType": 1
+        },
+        {
+            "id": "eb4ea09a-ff1c-4a17-a920-8bd4da0e2bc8",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "drift_x",
+            "varType": 1
+        },
+        {
+            "id": "a8d2dd10-657b-4afa-82b7-b7b0c1ac5f73",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "drift_y",
+            "varType": 1
+        },
+        {
+            "id": "9e5806bb-582c-49e2-9313-160b3173d29c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "target",
+            "varType": 4
         }
     ],
     "solid": false,

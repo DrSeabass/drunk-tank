@@ -183,6 +183,22 @@
             }
         },
         {
+            "Key": "720650b1-229c-4753-af4d-070c7915d2a6",
+            "Value": {
+                "id": "3fe82cc4-0c18-445f-8200-7212212a0ec0",
+                "resourcePath": "fonts\\fntGameText\\fntGameText.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "75a9c640-4734-40ab-b173-716f0a2aafe4",
+            "Value": {
+                "id": "2798b17c-4564-4e24-817a-87b7b19287e7",
+                "resourcePath": "sprites\\sprReticle\\sprReticle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8ac58bbc-b459-41f2-b921-6cf39bfa01f2",
             "Value": {
                 "id": "9f8ed38c-3ec4-42bd-9562-c10de941e00e",
@@ -204,6 +220,14 @@
                 "id": "504c8982-cf31-4e95-98b7-8eeb65789129",
                 "resourcePath": "views\\94668872-d25b-4e54-9562-46e3b5d9af4d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9596d970-c90b-4cc0-802d-72f1a63535b1",
+            "Value": {
+                "id": "0b0ff021-eb22-4f24-b216-e4812bf8dfc0",
+                "resourcePath": "scripts\\setupGlobals\\setupGlobals.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -335,6 +359,14 @@
             }
         },
         {
+            "Key": "f2438d31-a257-4c8b-af7b-07b20e922cec",
+            "Value": {
+                "id": "72b4dbf5-c779-4281-b013-6eaea3afafea",
+                "resourcePath": "objects\\objScoreDisplay\\objScoreDisplay.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "c10a83e8-8075-4844-ab3e-dcab2de7c2eb",
@@ -360,7 +392,7 @@
         }
     ],
     "script_order": [
-        
+        "9596d970-c90b-4cc0-802d-72f1a63535b1"
     ],
     "tutorial": ""
 }

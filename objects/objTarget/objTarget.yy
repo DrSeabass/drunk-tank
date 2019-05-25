@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "objTarget",
     "eventList": [
-        
+        {
+            "id": "1b1b84a8-2de2-4fde-a806-9a3c5d1c9afd",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "2f187568-bcaf-4787-979c-dfd3aa563ff6"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -22,7 +31,50 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "72704d42-b2e7-461e-845f-1873e5196634",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "aim_x",
+            "varType": 1
+        },
+        {
+            "id": "c6156102-72d8-4168-938c-258c9a253bbb",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "aim_y",
+            "varType": 1
+        },
+        {
+            "id": "05df8027-0a13-47ae-b1c4-8f36e7cdd805",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "aimed_at",
+            "varType": 3
+        }
+    ],
     "solid": false,
     "spriteId": "97b05caa-7aab-4fb4-b24f-bfc7a58f8ce2",
     "visible": true
