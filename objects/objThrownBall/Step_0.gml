@@ -14,7 +14,7 @@ if (self.step_index > self.throw_steps){
 	  //hit
 		global.screenstate = throw_screen_state.plunging
 	}else{
-		global.screenstate = throw_screen_state.throw_input
+		global.screenstate = throw_screen_state.start_throw
 	}
 	instance_destroy();
 }

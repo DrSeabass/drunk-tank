@@ -6,8 +6,6 @@ if (global.screenstate == throw_screen_state.plunging){
 		self.sprite_index = sprManInGlass
 		self.image_index = 0
 	}else{
-		show_debug_message(self.image_index)
-		show_debug_message(self.image_number)
 		if self.image_index > self.image_number - 1 {
 			global.screenstate = throw_screen_state.drinking
 		}
@@ -22,7 +20,10 @@ if (global.screenstate == throw_screen_state.drinking) {
 	if global.player == playing.player { // player playing, cpu drinking
 		var beer_step = irandom(5)
 		self.remaining_beer -= beer_step
-	} else if global.player == playing.player {
+	} else if global.player == playing.cpu {
+		if (global.act != self.previous_act){
+			self.remaining_beer -= 1
+		}
 	}
 	
 	self.image_index = self.image_number * (1 - (self.remaining_beer / 100))
@@ -31,7 +32,8 @@ if (global.screenstate == throw_screen_state.drinking) {
 		show_debug_message("Drinking over, go again")
 		self.sprite_index = sprFullSteinBubbling
 		self.image_index = 0
-		global.screenstate = throw_screen_state.throw_input
+		global.screenstate = throw_screen_state.start_throw
 		self.remaining_beer = 100
+		changePlayer()
 	}
 }

@@ -1,8 +1,8 @@
 {
-    "id": "372fdd4f-f8a1-40b8-9a13-317133ed399a",
+    "id": "902b27cb-740e-44b4-a7ed-6438cfc1c109",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "throwBall",
+    "name": "changePlayer",
     "IsCompatibility": false,
     "IsDnD": false
 }

@@ -127,14 +127,6 @@
             }
         },
         {
-            "Key": "372fdd4f-f8a1-40b8-9a13-317133ed399a",
-            "Value": {
-                "id": "34603e10-7ea3-4529-83ab-bb15219d2d7a",
-                "resourcePath": "scripts\\throwBall\\throwBall.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "37bae686-b5de-4d68-b147-637f90800c11",
             "Value": {
                 "id": "5a63e729-bded-4294-a5aa-f896e440e818",
@@ -215,6 +207,14 @@
             }
         },
         {
+            "Key": "902b27cb-740e-44b4-a7ed-6438cfc1c109",
+            "Value": {
+                "id": "58400b4c-dea6-44e0-8af0-23739ea71c6a",
+                "resourcePath": "scripts\\changePlayer\\changePlayer.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "91b0ed24-9de2-4c2e-b817-08ba6cac1d20",
             "Value": {
                 "id": "e5a7b481-0811-4fa8-bf3f-94b93039abfa",
@@ -244,6 +244,14 @@
                 "id": "da60c087-28e1-4268-a872-1c162398071c",
                 "resourcePath": "sprites\\sprTarget\\sprTarget.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a502cd40-fc5b-4691-81e9-2ad6d9a4a5e3",
+            "Value": {
+                "id": "a6a33e6d-6ed1-4729-a6fb-5f6130deb3a1",
+                "resourcePath": "scripts\\selectNextAvailablePlayer\\selectNextAvailablePlayer.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -409,7 +417,8 @@
     ],
     "script_order": [
         "9596d970-c90b-4cc0-802d-72f1a63535b1",
-        "372fdd4f-f8a1-40b8-9a13-317133ed399a"
+        "902b27cb-740e-44b4-a7ed-6438cfc1c109",
+        "a502cd40-fc5b-4691-81e9-2ad6d9a4a5e3"
     ],
     "tutorial": ""
 }

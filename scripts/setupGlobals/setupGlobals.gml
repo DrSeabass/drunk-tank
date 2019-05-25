@@ -20,7 +20,8 @@ enum throw_screen_state {
 	ball_in_flight = 2,
 	plunging = 3,
 	drinking = 4,
-	character_swap = 5
+	character_swap = 5,
+	start_throw = 6
 }
 
 enum game_state {
@@ -33,7 +34,7 @@ enum game_state {
 
 // Game state machine
 global.gamestate = game_state.throwing
-global.screenstate = throw_screen_state.throw_input
+global.screenstate = throw_screen_state.start_throw
 
 // global input state
 global.left = false

@@ -195,6 +195,34 @@
             "value": "0",
             "varName": "target",
             "varType": 4
+        },
+        {
+            "id": "e97e6656-0fa7-4b41-85af-480a3e4b1e9f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "count",
+            "varType": 1
+        },
+        {
+            "id": "3e0fd144-848c-42e4-bbc7-cafac03579b9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "max_stamina",
+            "varType": 0
         }
     ],
     "solid": false,
