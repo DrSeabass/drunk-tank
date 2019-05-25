@@ -1,5 +1,6 @@
-if global.gamestate != game_state.throwing
+if (global.gamestate != game_state.throwing){
 	return
+}
 
 if (global.screenstate == throw_screen_state.plunging){
 	if self.sprite_index != sprManInGlass{
