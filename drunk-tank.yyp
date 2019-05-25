@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "09fa6266-fd28-4b77-b4e4-3dab32b9c445",
+            "Value": {
+                "id": "b942b520-c7a8-4b66-b053-50a4f82b8b94",
+                "resourcePath": "sprites\\sprNotRendered\\sprNotRendered.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0d6edbaf-e175-490e-96a7-aac7c6614c59",
             "Value": {
                 "id": "adde6812-d6fa-40e6-bd79-e97780cfffac",
@@ -75,6 +83,14 @@
             "Value": {
                 "id": "3c215adb-a953-443a-9539-1ac446f59bc1",
                 "resourcePath": "sprites\\sprFlyingBaseball\\sprFlyingBaseball.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2e67b625-4019-4de2-a2f7-48110089f510",
+            "Value": {
+                "id": "3a9bba97-4fd8-4155-a166-cccdb26d19fb",
+                "resourcePath": "sprites\\sprManDrinkingGlass\\sprManDrinkingGlass.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -204,6 +220,14 @@
                 "id": "d9ffca3b-2365-4dad-8705-da9bc081ac49",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "acae6ae8-ef32-437b-b541-aee2bfb1fd7d",
+            "Value": {
+                "id": "90f552a7-af93-4e15-b8ec-1f37c87f4c26",
+                "resourcePath": "objects\\objInput\\objInput.yy",
+                "resourceType": "GMObject"
             }
         },
         {

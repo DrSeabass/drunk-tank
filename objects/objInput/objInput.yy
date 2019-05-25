@@ -1,8 +1,8 @@
 {
-    "id": "37bae686-b5de-4d68-b147-637f90800c11",
+    "id": "acae6ae8-ef32-437b-b541-aee2bfb1fd7d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objThrowCounter",
+    "name": "objInput",
     "eventList": [
         
     ],
@@ -22,23 +22,8 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": [
-        {
-            "id": "2fef7723-48dc-4b36-b7e1-57897361bee5",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "remaining_throws",
-            "varType": 1
-        }
-    ],
+    "properties": null,
     "solid": false,
-    "spriteId": "55bbc3d5-4ddb-4251-8b6d-7f7c9aa021ff",
+    "spriteId": "09fa6266-fd28-4b77-b4e4-3dab32b9c445",
     "visible": true
 }
