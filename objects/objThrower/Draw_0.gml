@@ -1,0 +1,1 @@
+draw_sprite(self.sprite_index, 0, self.x + self.x_displace, self.y + self.y_displace)

@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "acf6a948-f31e-4894-9a15-eccf30ee3f1d",
+            "Value": {
+                "id": "40104aaf-75b2-4258-8997-d3d25e5a84ba",
+                "resourcePath": "objects\\objThrownBall\\objThrownBall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "aed3c9e2-6a0c-46dd-a1f5-c655357e777f",
             "Value": {
                 "id": "6babc70b-554c-4852-955c-f3b635184c00",
