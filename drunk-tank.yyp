@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0d6edbaf-e175-490e-96a7-aac7c6614c59",
+            "Value": {
+                "id": "adde6812-d6fa-40e6-bd79-e97780cfffac",
+                "resourcePath": "sprites\\sprBaseManSeatedProfile\\sprBaseManSeatedProfile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "101a2550-8ebe-46d4-ba47-e3532468de73",
             "Value": {
                 "id": "113c2852-4682-4f4b-9971-2958959d4e53",
@@ -47,6 +55,14 @@
             }
         },
         {
+            "Key": "2401ad94-e505-4168-b284-0b43029ec3f4",
+            "Value": {
+                "id": "92746f67-fdc8-4373-9933-bdfb6d3b2226",
+                "resourcePath": "objects\\objDunker\\objDunker.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "28a8a2a9-0cf5-409a-be43-adc903415c51",
             "Value": {
                 "id": "66aae7d9-47b6-4685-b45c-ccb3d7392b68",
@@ -60,6 +76,14 @@
                 "id": "3c215adb-a953-443a-9539-1ac446f59bc1",
                 "resourcePath": "sprites\\sprFlyingBaseball\\sprFlyingBaseball.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2f187568-bcaf-4787-979c-dfd3aa563ff6",
+            "Value": {
+                "id": "b62dcc5d-65e0-4d7d-bcf8-f1c9fa36b438",
+                "resourcePath": "objects\\objTarget\\objTarget.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -84,6 +108,14 @@
                 "id": "f6c8f6df-9f90-412b-8114-e915711e004c",
                 "resourcePath": "views\\3653fb66-5000-459f-8297-006858d59e51.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "37bae686-b5de-4d68-b147-637f90800c11",
+            "Value": {
+                "id": "5a63e729-bded-4294-a5aa-f896e440e818",
+                "resourcePath": "objects\\objThrowCounter\\objThrowCounter.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -132,6 +164,14 @@
                 "id": "3dd8e1aa-ac5d-4939-89c9-54f87daccc5f",
                 "resourcePath": "views\\65dd5a12-56b6-4d79-88c7-e0b64b451756.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8ac58bbc-b459-41f2-b921-6cf39bfa01f2",
+            "Value": {
+                "id": "9f8ed38c-3ec4-42bd-9562-c10de941e00e",
+                "resourcePath": "objects\\objPlayerRest\\objPlayerRest.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -199,6 +239,14 @@
             }
         },
         {
+            "Key": "b9553eaf-6b01-4722-bff2-c6baddaa03b4",
+            "Value": {
+                "id": "f8cd3e30-19d1-4939-b584-fee489572521",
+                "resourcePath": "sprites\\sprManInGlass\\sprManInGlass.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b9b3704a-78a8-4ea4-a427-99e1b73d5eb6",
             "Value": {
                 "id": "6a828613-deee-4cad-b26a-8e790ac1ad4c",
@@ -239,6 +287,14 @@
             }
         },
         {
+            "Key": "dc89139d-7f90-4b1a-b18d-b373f4630400",
+            "Value": {
+                "id": "9b5fb705-1300-442d-874c-c1c1723c4ef8",
+                "resourcePath": "sprites\\sprBaseManProfile\\sprBaseManProfile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "de8c94fe-e475-48a3-a3f1-8696b8ff574a",
             "Value": {
                 "id": "93a78232-8064-4c02-be97-703381f76f11",
@@ -247,11 +303,27 @@
             }
         },
         {
+            "Key": "eb42775a-09cc-42f7-b3d5-a9c143b2f587",
+            "Value": {
+                "id": "9ee9e30d-f9cb-4d74-ac26-05d6497c5134",
+                "resourcePath": "objects\\objThrower\\objThrower.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "c10a83e8-8075-4844-ab3e-dcab2de7c2eb",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "fa95614f-49a8-42a0-be4f-4766ea6ab82f",
+            "Value": {
+                "id": "22c00750-efd5-4c67-b272-c8b8b82f00fd",
+                "resourcePath": "sprites\\sprDriveway\\sprDriveway.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
