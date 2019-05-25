@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "336ac6cd-b472-4001-946d-434d7de01a22",
+            "Value": {
+                "id": "0b1d65d2-7d31-4108-8a26-474f01bfe185",
+                "resourcePath": "sprites\\sprFullSteinBubbling\\sprFullSteinBubbling.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "34c70d33-2f62-423f-a085-c535a36858db",
             "Value": {
                 "id": "7157c4a2-edf9-4c2b-a02d-f3dc965756f4",
@@ -83,6 +91,14 @@
             "Value": {
                 "id": "7cf8e817-6c2d-445e-8e9b-191df8c0fe33",
                 "resourcePath": "sprites\\sprHoldingBaseball\\sprHoldingBaseball.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "50d40993-d52e-4bb2-8d83-38285b6b2100",
+            "Value": {
+                "id": "5d641729-bef8-4f87-96f7-517f28460f91",
+                "resourcePath": "sprites\\sprChair\\sprChair.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -116,6 +132,14 @@
                 "id": "3dd8e1aa-ac5d-4939-89c9-54f87daccc5f",
                 "resourcePath": "views\\65dd5a12-56b6-4d79-88c7-e0b64b451756.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "91b0ed24-9de2-4c2e-b817-08ba6cac1d20",
+            "Value": {
+                "id": "e5a7b481-0811-4fa8-bf3f-94b93039abfa",
+                "resourcePath": "sprites\\sprBaseMan\\sprBaseMan.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -172,6 +196,14 @@
                 "id": "98984f83-c5bb-4168-962e-6a08e2200a18",
                 "resourcePath": "views\\b62187a6-80a0-4241-8e90-7a843192ceba.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b9b3704a-78a8-4ea4-a427-99e1b73d5eb6",
+            "Value": {
+                "id": "6a828613-deee-4cad-b26a-8e790ac1ad4c",
+                "resourcePath": "sprites\\sprFullSteinBubbleStart\\sprFullSteinBubbleStart.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
