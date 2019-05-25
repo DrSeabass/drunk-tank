@@ -115,6 +115,20 @@
             "value": "0",
             "varName": "step_index",
             "varType": 1
+        },
+        {
+            "id": "dfdee0a3-fba8-4750-8fe3-31bb3d71aac9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "target",
+            "varType": 5
         }
     ],
     "solid": false,

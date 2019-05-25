@@ -10,6 +10,11 @@ self.step_index ++
 
 if (self.step_index > self.throw_steps){
 	show_debug_message("Throw is over, end throw somehow...")
+	if (abs(self.target.aim_x) < 10  &&  abs(self.target.aim_y) < 10){
+	  //hit
+		global.screenstate = throw_screen_state.plunging
+	}else{
+		global.screenstate = throw_screen_state.throw_input
+	}
 	instance_destroy();
-	global.screenstate = throw_screen_state.throw_input // temp
 }

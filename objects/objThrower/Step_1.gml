@@ -56,8 +56,10 @@ if (global.screenstate == throw_screen_state.throw_input){
 		self.target.aim_y = self.y_displace
 	}
 	
-	if global.act
+	if global.act {
 		global.screenstate = throw_screen_state.throwing
+		global.remaining_throws --
+	}
 } else if (global.screenstate == throw_screen_state.throwing){
 	self.x_displace += 5;
 	self.y_displace += 5;
@@ -67,6 +69,7 @@ if (global.screenstate == throw_screen_state.throw_input){
 			ball = instance_create_depth(512, 384, -1, objThrownBall)
 			ball.start_x = 512
 			ball.start_y = 384
+			ball.target = self.target
 			ball.target_x = self.target.x + self.target.aim_x
 			ball.target_y = self.target.y + self.target.aim_y
 			ball.visible = true

@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "372fdd4f-f8a1-40b8-9a13-317133ed399a",
+            "Value": {
+                "id": "34603e10-7ea3-4529-83ab-bb15219d2d7a",
+                "resourcePath": "scripts\\throwBall\\throwBall.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "37bae686-b5de-4d68-b147-637f90800c11",
             "Value": {
                 "id": "5a63e729-bded-4294-a5aa-f896e440e818",
@@ -400,7 +408,8 @@
         }
     ],
     "script_order": [
-        "9596d970-c90b-4cc0-802d-72f1a63535b1"
+        "9596d970-c90b-4cc0-802d-72f1a63535b1",
+        "372fdd4f-f8a1-40b8-9a13-317133ed399a"
     ],
     "tutorial": ""
 }
