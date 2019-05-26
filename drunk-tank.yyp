@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "e02398f9-7739-4a27-b20c-7cbef83e8877",
+            "Value": {
+                "id": "c138a1cc-6e5a-4b27-8f97-04429a2124a5",
+                "resourcePath": "sprites\\sprBaseManSeated\\sprBaseManSeated.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e2597e6a-017b-4b98-a19f-caf3513a7bf2",
             "Value": {
                 "id": "ee1fe1a7-6a92-45bc-9dd1-d160dc1821c7",
