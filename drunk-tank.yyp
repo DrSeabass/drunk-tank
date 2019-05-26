@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "00e7c5d6-cd5d-4862-81a9-d18d4caf9dd6",
+            "Value": {
+                "id": "5bc084eb-b7ac-4d68-b243-afc65bfab3b5",
+                "resourcePath": "sprites\\sprSelected\\sprSelected.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "08abf15a-2f7c-4926-825d-d8d781c5e786",
             "Value": {
                 "id": "f3e6c620-e5ae-4344-93bf-bca11cf10b68",
@@ -156,6 +164,14 @@
                 "id": "7cf8e817-6c2d-445e-8e9b-191df8c0fe33",
                 "resourcePath": "sprites\\sprHoldingBaseball\\sprHoldingBaseball.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4fe18c5e-5b95-4f64-b782-7468db0087df",
+            "Value": {
+                "id": "b2984fab-f16c-4afd-ad7f-e0f4d785488a",
+                "resourcePath": "rooms\\rHighScore\\rHighScore.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -292,6 +308,14 @@
                 "id": "da60c087-28e1-4268-a872-1c162398071c",
                 "resourcePath": "sprites\\sprTarget\\sprTarget.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a058d94b-fa4c-4651-aa91-846aba555519",
+            "Value": {
+                "id": "fe83e631-295b-494c-b6fe-6d0014973e6a",
+                "resourcePath": "objects\\objHighScoreDisplay\\objHighScoreDisplay.yy",
+                "resourceType": "GMObject"
             }
         },
         {
