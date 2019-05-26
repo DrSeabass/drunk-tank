@@ -1,5 +1,10 @@
 //update based on input
+var selecting = false
 if self.armed {
+	if global.select{
+		selecting = true
+		self.armed = false
+	}
 	if global.left{
 		self.armed = false
 		self.col --
@@ -42,6 +47,11 @@ if pointing_at != noone {
 		pointedTo = self.pointing_at[index]
 	}
 	if (pointedTo != noone){
+		self.nm_display.pointing_at = pointedTo
+		self.st_display.pointing_at = pointedTo
+		if selecting{
+			pointedTo.selected = !pointedTo.selected
+		}
 		self.x = pointedTo.x
 		self.y = pointedTo.y
 	}

@@ -1,0 +1,1 @@
+teamSelecter.nm_display = self

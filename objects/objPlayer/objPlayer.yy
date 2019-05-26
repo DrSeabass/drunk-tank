@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "objPlayer",
     "eventList": [
-        
+        {
+            "id": "c76b5cdc-28c0-4590-b6f2-7e3e1a0d468f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "b881e111-ef7b-49c8-b832-da4dea293b85"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -148,6 +157,20 @@
             "value": "sprBaseManSeatedProfile",
             "varName": "sitting",
             "varType": 5
+        },
+        {
+            "id": "001096af-5a56-4611-a238-70768f7860b6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "selected",
+            "varType": 3
         }
     ],
     "solid": false,

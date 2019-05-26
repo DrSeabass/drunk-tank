@@ -107,6 +107,34 @@
             "value": "0",
             "varName": "pointing_at",
             "varType": 4
+        },
+        {
+            "id": "a108d78e-4591-45f2-97f4-ff7a9a0977a0",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "nm_display",
+            "varType": 4
+        },
+        {
+            "id": "39f90d54-6306-4516-b763-360319814f28",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "st_display",
+            "varType": 4
         }
     ],
     "solid": false,
