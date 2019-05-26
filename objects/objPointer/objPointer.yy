@@ -23,6 +23,16 @@
             "enumb": 0,
             "eventtype": 2,
             "m_owner": "865f1957-b91f-46ab-aa13-1fe8d00748a4"
+        },
+        {
+            "id": "47c39bc2-9189-489c-af80-5b85d70b2781",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "865f1957-b91f-46ab-aa13-1fe8d00748a4"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -83,6 +93,20 @@
             "value": "True",
             "varName": "armed",
             "varType": 3
+        },
+        {
+            "id": "39eb83f3-29c5-402c-91d1-de4173a4e0d9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "pointing_at",
+            "varType": 4
         }
     ],
     "solid": false,
