@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "08abf15a-2f7c-4926-825d-d8d781c5e786",
+            "Value": {
+                "id": "f3e6c620-e5ae-4344-93bf-bca11cf10b68",
+                "resourcePath": "objects\\objNameQuoteDisplay\\objNameQuoteDisplay.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "09fa6266-fd28-4b77-b4e4-3dab32b9c445",
             "Value": {
                 "id": "b942b520-c7a8-4b66-b053-50a4f82b8b94",
@@ -52,6 +60,14 @@
                 "id": "113c2852-4682-4f4b-9971-2958959d4e53",
                 "resourcePath": "views\\101a2550-8ebe-46d4-ba47-e3532468de73.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "11bd79f9-2339-4d58-80e5-e02ae023d75a",
+            "Value": {
+                "id": "27c208f0-a53a-4834-b557-4268c9c51d0d",
+                "resourcePath": "rooms\\rTeamSelect\\rTeamSelect.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -191,6 +207,14 @@
             }
         },
         {
+            "Key": "652c2972-7f5c-42a9-b36a-225834431d4c",
+            "Value": {
+                "id": "fca19dc8-42eb-4951-ac70-2ccdf200665b",
+                "resourcePath": "objects\\objStatsDisplay\\objStatsDisplay.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "65dd5a12-56b6-4d79-88c7-e0b64b451756",
             "Value": {
                 "id": "3dd8e1aa-ac5d-4939-89c9-54f87daccc5f",
@@ -212,6 +236,14 @@
                 "id": "2798b17c-4564-4e24-817a-87b7b19287e7",
                 "resourcePath": "sprites\\sprReticle\\sprReticle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "865f1957-b91f-46ab-aa13-1fe8d00748a4",
+            "Value": {
+                "id": "da5d1203-69aa-4dde-80be-c8a8ff16b4fd",
+                "resourcePath": "objects\\objPointer\\objPointer.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -347,6 +379,14 @@
             "Value": {
                 "id": "6a828613-deee-4cad-b26a-8e790ac1ad4c",
                 "resourcePath": "sprites\\sprFullSteinBubbleStart\\sprFullSteinBubbleStart.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bf90633b-8dc4-4555-9dfe-85b7ae759c23",
+            "Value": {
+                "id": "4e4c24dd-c5d9-41c4-9b99-5f669f702a3c",
+                "resourcePath": "sprites\\sprSelecter\\sprSelecter.yy",
                 "resourceType": "GMSprite"
             }
         },
