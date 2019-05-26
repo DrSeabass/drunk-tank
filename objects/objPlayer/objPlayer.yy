@@ -106,6 +106,48 @@
             "value": "sprBasePortrait",
             "varName": "portrait",
             "varType": 5
+        },
+        {
+            "id": "557834c4-f5b3-44b9-8dc7-3a2a470a39f3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "sprChair",
+            "varName": "emptyChair",
+            "varType": 5
+        },
+        {
+            "id": "b0b4482b-89fb-4f95-a044-23573e1a14c0",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "sprChair",
+            "varName": "hammeredChair",
+            "varType": 5
+        },
+        {
+            "id": "18674aa9-8f9a-465e-b273-556083dc4c87",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "sprBaseManSeatedProfile",
+            "varName": "sitting",
+            "varType": 5
         }
     ],
     "solid": false,
