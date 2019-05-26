@@ -18,7 +18,7 @@ global.team_cpu[2] = instance_create_depth(global.offscreen, global.offscreen, g
 global.team_cpu[0].name = "CPU 0"
 global.team_cpu[1].name = "CPU 1"
 global.team_cpu[2].name = "CPU 2"
-
+show_debug_message("created_teams")
 
 global.team_player_index = 0
 global.team_cpu_index = 0
