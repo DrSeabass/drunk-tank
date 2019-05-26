@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "94066c20-ef74-4eef-9759-faaf07c38fe5",
+            "Value": {
+                "id": "4979f239-c187-40ad-a0c4-4e8a8ec56c8d",
+                "resourcePath": "scripts\\startThrowing\\startThrowing.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "94668872-d25b-4e54-9562-46e3b5d9af4d",
             "Value": {
                 "id": "504c8982-cf31-4e95-98b7-8eeb65789129",
@@ -359,6 +367,14 @@
             }
         },
         {
+            "Key": "b16785cc-e447-470a-8a0c-4340df874d71",
+            "Value": {
+                "id": "4acca263-ae5a-4317-adb3-577e94d52a71",
+                "resourcePath": "scripts\\endGame\\endGame.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b226d97f-6806-47c7-8e29-5d1fc62b827f",
             "Value": {
                 "id": "216dc0e6-ce35-4a4e-84b2-8e61574354cf",
@@ -372,6 +388,14 @@
                 "id": "91259be3-f17b-4288-af5b-3d02e4ca8aa5",
                 "resourcePath": "views\\b23a9c76-29d7-454b-94c8-293bc2d4dd91.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b26826b9-43b1-4ebf-b706-746bd913c8e8",
+            "Value": {
+                "id": "e28828fc-b6bc-4110-961a-ed65a7186be6",
+                "resourcePath": "scripts\\startTeamSelect\\startTeamSelect.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -522,7 +546,10 @@
     "script_order": [
         "9596d970-c90b-4cc0-802d-72f1a63535b1",
         "902b27cb-740e-44b4-a7ed-6438cfc1c109",
-        "a502cd40-fc5b-4691-81e9-2ad6d9a4a5e3"
+        "a502cd40-fc5b-4691-81e9-2ad6d9a4a5e3",
+        "94066c20-ef74-4eef-9759-faaf07c38fe5",
+        "b16785cc-e447-470a-8a0c-4340df874d71",
+        "b26826b9-43b1-4ebf-b706-746bd913c8e8"
     ],
     "tutorial": ""
 }

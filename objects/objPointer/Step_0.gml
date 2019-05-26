@@ -53,6 +53,9 @@ if pointing_at != noone {
 			pointedTo.selected = !pointedTo.selected
 			if pointedTo.selected {
 				global.selected_players ++
+				if (global.selected_players == 3){
+					startThrowing()
+				}
 			}else{
 				global.selected_players --
 			}
