@@ -1,0 +1,1 @@
+//self.character = global.team_cpu[0]

@@ -1,6 +1,24 @@
 // Global Game State
+global.offscreen = -1000
+
+// set up players
 global.team_player = []
 global.team_cpu = []
+
+global.team_player[0] = instance_create_depth(global.offscreen, global.offscreen, global.offscreen, objPlayer);
+global.team_player[1] = instance_create_depth(global.offscreen, global.offscreen, global.offscreen, objPlayer);
+global.team_player[2] = instance_create_depth(global.offscreen, global.offscreen, global.offscreen, objPlayer);
+global.team_player[0].name = "PC 0"
+global.team_player[1].name = "PC 1"
+global.team_player[2].name = "PC 2"
+
+global.team_cpu[0] = instance_create_depth(global.offscreen, global.offscreen, global.offscreen, objPlayer);
+global.team_cpu[1] = instance_create_depth(global.offscreen, global.offscreen, global.offscreen, objPlayer);
+global.team_cpu[2] = instance_create_depth(global.offscreen, global.offscreen, global.offscreen, objPlayer);
+global.team_cpu[0].name = "CPU 0"
+global.team_cpu[1].name = "CPU 1"
+global.team_cpu[2].name = "CPU 2"
+
 
 global.team_player_index = 0
 global.team_cpu_index = 0
