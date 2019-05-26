@@ -51,6 +51,11 @@ if pointing_at != noone {
 		self.st_display.pointing_at = pointedTo
 		if selecting{
 			pointedTo.selected = !pointedTo.selected
+			if pointedTo.selected {
+				global.selected_players ++
+			}else{
+				global.selected_players --
+			}
 		}
 		self.x = pointedTo.x
 		self.y = pointedTo.y

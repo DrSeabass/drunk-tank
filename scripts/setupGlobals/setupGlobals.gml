@@ -4,6 +4,8 @@ global.offscreen = -1000
 // set up players
 global.team_player = []
 global.team_cpu = []
+global.all_players = []
+global.selected_players = 0
 
 global.team_player[0] = instance_create_depth(global.offscreen, global.offscreen, global.offscreen, objPlayer);
 global.team_player[1] = instance_create_depth(global.offscreen, global.offscreen, global.offscreen, objPlayer);

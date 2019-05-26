@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "objStatsDisplay",
     "eventList": [
-        
+        {
+            "id": "3a1006bc-d521-49d7-8359-8c0cffa3487a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "652c2972-7f5c-42a9-b36a-225834431d4c"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -33,7 +42,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "noone",
             "varName": "pointing_at",
             "varType": 4
         }
