@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "6591de27-90a6-40eb-a5a2-f33c06ce14d8",
+            "Value": {
+                "id": "6bb41fb1-a2ae-45c8-a831-ec990eb92149",
+                "resourcePath": "sprites\\sprBaseManHammered\\sprBaseManHammered.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "65dd5a12-56b6-4d79-88c7-e0b64b451756",
             "Value": {
                 "id": "3dd8e1aa-ac5d-4939-89c9-54f87daccc5f",

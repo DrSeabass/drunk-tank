@@ -140,7 +140,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "sprChair",
+            "value": "sprBaseManHammered",
             "varName": "hammeredChair",
             "varType": 5
         },

@@ -69,6 +69,20 @@
             "value": "0",
             "varName": "previous_act",
             "varType": 3
+        },
+        {
+            "id": "e482eae2-28b7-49bc-9d57-98b55bd7d910",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "count",
+            "varType": 1
         }
     ],
     "solid": false,

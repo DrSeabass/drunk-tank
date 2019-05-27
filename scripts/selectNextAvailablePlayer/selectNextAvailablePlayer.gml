@@ -24,3 +24,5 @@ for( var i = 1; i < 3; i++){
 		}
 	}
 }
+
+show_debug_message("No next available.  End game here.")

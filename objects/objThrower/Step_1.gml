@@ -15,6 +15,7 @@ if (global.screenstate == throw_screen_state.start_throw){
 		global.up = false
 		global.down = false
 		global.select = false 
+		self.count = 0
 }else if (global.screenstate == throw_screen_state.throw_input){
 	if (global.remaining_throws == 0) {
 		changePlayer();
@@ -79,6 +80,8 @@ if (global.screenstate == throw_screen_state.start_throw){
 	
 	if global.player == playing.player {
 		if global.act {
+			show_debug_message("score player throw: " + string(self.count) + " " 
+			                   + string(abs(target.aim_x)) + " " +  string(abs(target.aim_y)))
 			global.screenstate = throw_screen_state.throwing
 			global.remaining_throws --
 		}
