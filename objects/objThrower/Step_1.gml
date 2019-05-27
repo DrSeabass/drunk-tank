@@ -9,6 +9,12 @@ if (global.screenstate == throw_screen_state.start_throw){
 		self.drift_x = 0
 		self.drift_y = 0
 		global.screenstate = throw_screen_state.throw_input
+		global.left = false
+		global.right = false
+		global.act = false
+		global.up = false
+		global.down = false
+		global.select = false 
 }else if (global.screenstate == throw_screen_state.throw_input){
 	if (global.remaining_throws == 0) {
 		changePlayer();
