@@ -41,7 +41,8 @@ enum throw_screen_state {
 	plunging = 3,
 	drinking = 4,
 	character_swap = 5,
-	start_throw = 6
+	start_throw = 6,
+	wiping = 7
 }
 
 enum game_state {
@@ -49,7 +50,8 @@ enum game_state {
 	attract = 1,
 	high_score = 2,
 	team_select = 3,
-	throwing = 4
+	throwing = 4,
+	end_screen = 5
 }
 
 // Game state machine
