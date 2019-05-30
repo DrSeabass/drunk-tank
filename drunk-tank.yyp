@@ -79,11 +79,27 @@
             }
         },
         {
+            "Key": "14779733-80f3-4d97-b480-0ff5b30df613",
+            "Value": {
+                "id": "682e5287-111b-4687-bbb5-6a509411515b",
+                "resourcePath": "rooms\\rEndGame\\rEndGame.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "1c92d341-d284-4ac9-81fe-d66ba99ae74e",
             "Value": {
                 "id": "b60e76d2-1938-46a7-875c-c20f5017b1c8",
                 "resourcePath": "views\\1c92d341-d284-4ac9-81fe-d66ba99ae74e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "20d45945-faa7-4a88-b2a9-b81283b2b637",
+            "Value": {
+                "id": "0c0a86c0-6181-4dde-b2c0-7e1161c7e20e",
+                "resourcePath": "sprites\\sprVictory1\\sprVictory1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -95,11 +111,27 @@
             }
         },
         {
+            "Key": "24cadb2f-fccb-48cc-a70c-4a302b711c9a",
+            "Value": {
+                "id": "1afaac20-f6eb-4cd9-84f8-a10db6ae25a0",
+                "resourcePath": "objects\\objTimedEvent\\objTimedEvent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "28a8a2a9-0cf5-409a-be43-adc903415c51",
             "Value": {
                 "id": "66aae7d9-47b6-4685-b45c-ccb3d7392b68",
                 "resourcePath": "views\\28a8a2a9-0cf5-409a-be43-adc903415c51.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2b3883cf-f019-4dcb-aaef-26dc628a9ea5",
+            "Value": {
+                "id": "8fef5877-581a-40f3-910b-3bad92a9ef65",
+                "resourcePath": "scripts\\resetGame\\resetGame.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -263,6 +295,14 @@
             }
         },
         {
+            "Key": "75edb49f-7685-4c1d-a4dd-e3c9f7dc8533",
+            "Value": {
+                "id": "55cdafd8-8ec4-4d4e-b573-14769f3a133a",
+                "resourcePath": "sprites\\sprVictory3\\sprVictory3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "79e7d8f9-c9da-4561-84e3-e3de26fb52ab",
             "Value": {
                 "id": "338a8513-f53d-447b-9f87-bafd8f5fe884",
@@ -399,6 +439,14 @@
             }
         },
         {
+            "Key": "af6d9287-ca4c-4832-ae82-a7b2dc3dcaeb",
+            "Value": {
+                "id": "a5f65635-c2e3-4ad2-ab9e-cd54619257da",
+                "resourcePath": "sprites\\sprLoss\\sprLoss.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b16785cc-e447-470a-8a0c-4340df874d71",
             "Value": {
                 "id": "4acca263-ae5a-4317-adb3-577e94d52a71",
@@ -476,6 +524,14 @@
                 "id": "bdf51752-1922-4d0d-bed6-af7a91487ad7",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d76070b9-0131-4cac-b7df-491e5692d442",
+            "Value": {
+                "id": "c9bd0cb0-3b98-4549-b907-63d8618cb4f1",
+                "resourcePath": "sprites\\sprVictory2\\sprVictory2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -597,7 +653,8 @@
         "a502cd40-fc5b-4691-81e9-2ad6d9a4a5e3",
         "94066c20-ef74-4eef-9759-faaf07c38fe5",
         "b16785cc-e447-470a-8a0c-4340df874d71",
-        "b26826b9-43b1-4ebf-b706-746bd913c8e8"
+        "b26826b9-43b1-4ebf-b706-746bd913c8e8",
+        "2b3883cf-f019-4dcb-aaef-26dc628a9ea5"
     ],
     "tutorial": ""
 }
