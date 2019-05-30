@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "79e7d8f9-c9da-4561-84e3-e3de26fb52ab",
+            "Value": {
+                "id": "338a8513-f53d-447b-9f87-bafd8f5fe884",
+                "resourcePath": "sprites\\sprBassPortrait\\sprBassPortrait.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "865f1957-b91f-46ab-aa13-1fe8d00748a4",
             "Value": {
                 "id": "da5d1203-69aa-4dde-80be-c8a8ff16b4fd",
@@ -291,6 +299,14 @@
             "Value": {
                 "id": "e5a7b481-0811-4fa8-bf3f-94b93039abfa",
                 "resourcePath": "sprites\\sprBaseMan\\sprBaseMan.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9322e738-3c87-41da-be5b-2bfc9626cee6",
+            "Value": {
+                "id": "0a030e1e-c7f1-41c8-87b3-fa463b1f51ec",
+                "resourcePath": "sprites\\bigBottle\\bigBottle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -331,6 +347,14 @@
             "Value": {
                 "id": "fe83e631-295b-494c-b6fe-6d0014973e6a",
                 "resourcePath": "objects\\objHighScoreDisplay\\objHighScoreDisplay.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a3f4914b-dbcc-409f-9989-3d7f537bd63a",
+            "Value": {
+                "id": "c6c6f951-2020-4169-9064-e35beaf2bdf8",
+                "resourcePath": "objects\\objWiper\\objWiper.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -503,6 +527,14 @@
             }
         },
         {
+            "Key": "e109a52c-0ccd-4b1b-a0d9-7af8421a33fa",
+            "Value": {
+                "id": "b0601702-3d0d-4793-8f16-37a3b8b860b8",
+                "resourcePath": "sounds\\onSelect\\onSelect.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "e2597e6a-017b-4b98-a19f-caf3513a7bf2",
             "Value": {
                 "id": "ee1fe1a7-6a92-45bc-9dd1-d160dc1821c7",
@@ -532,6 +564,14 @@
                 "id": "c10a83e8-8075-4844-ab3e-dcab2de7c2eb",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f651e9d6-9aa1-49a9-b15f-6ff678a01217",
+            "Value": {
+                "id": "94a3ef58-8c5a-4bc3-b502-e2da14a7ab5f",
+                "resourcePath": "sounds\\moveSelect\\moveSelect.yy",
+                "resourceType": "GMSound"
             }
         },
         {
