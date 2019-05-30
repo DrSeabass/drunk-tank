@@ -11,6 +11,8 @@ if from_team == playing.player {
 	team = global.team_cpu
 }
 
+var remaining_pc = 3
+
 for( var i = 1; i < 3; i++){
 	var this_player = (base + i) % array_length_1d(team)
 	var member = team[this_player]
@@ -22,7 +24,11 @@ for( var i = 1; i < 3; i++){
 			global.team_cpu_index = this_player
 			return
 		}
+	}else{
+		if (from_team == playing.player){
+			remaining_pc --
+		}
 	}
 }
 
-show_debug_message("No next available.  End game here.")
+endGame(remaining_pc)

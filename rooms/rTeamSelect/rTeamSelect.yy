@@ -2,7 +2,7 @@
 {
     "name": "rTeamSelect",
     "id": "11bd79f9-2339-4d58-80e5-e02ae023d75a",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
