@@ -1,1 +1,2 @@
+setupConstants()
 resetGame()
