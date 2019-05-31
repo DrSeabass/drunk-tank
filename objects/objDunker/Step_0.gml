@@ -21,17 +21,21 @@ if (global.screenstate == throw_screen_state.drinking) {
 		self.image_index = 0;
 	}
 	if global.player == playing.player { // player playing, cpu drinking
-		var beer_step = irandom(5)
+		var beer_step = irandom(2)
 		self.remaining_beer -= beer_step
+		
 	} else if global.player == playing.cpu {
 		if (global.act != self.previous_act){
 			self.remaining_beer -= 1
 		}
 	}
-	
-	self.image_index = self.image_number * (1 - (self.remaining_beer / 100))
-	
+	self.image_index = floor(self.image_number * (1 - (self.remaining_beer / 100)))
+    if (self.lastBeer - self.remaining_beer > 20){
+		audio_play_sound(drinkBeer, 10, false)
+		self.lastBeer = self.remaining_beer
+	}
 	if (self.remaining_beer <= 0){
+		audio_play_sound(finishBeer, 10, false)
 		show_debug_message("Drinking over, go again")
 		var drinker = noone
 		if global.player == playing.cpu {
@@ -49,6 +53,7 @@ if (global.screenstate == throw_screen_state.drinking) {
 		self.image_index = 0
 		global.screenstate = throw_screen_state.start_throw
 		self.remaining_beer = 100
+		self.lastBeer = 100
 		changePlayer()
 	}
 }

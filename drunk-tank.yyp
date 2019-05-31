@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0fa9ea04-2544-4035-90da-c859c43a0526",
+            "Value": {
+                "id": "880c6eda-002e-44e5-a30a-003ab9a1ca6a",
+                "resourcePath": "sounds\\drinkBeer\\drinkBeer.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "101a2550-8ebe-46d4-ba47-e3532468de73",
             "Value": {
                 "id": "113c2852-4682-4f4b-9971-2958959d4e53",
@@ -127,6 +135,14 @@
             }
         },
         {
+            "Key": "29353898-f5bb-41e3-9205-b9fcc0d84803",
+            "Value": {
+                "id": "41a258ab-e953-48d3-9d49-d3ff69432145",
+                "resourcePath": "sounds\\hitTarget\\hitTarget.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "2b3883cf-f019-4dcb-aaef-26dc628a9ea5",
             "Value": {
                 "id": "8fef5877-581a-40f3-910b-3bad92a9ef65",
@@ -188,6 +204,14 @@
                 "id": "5a63e729-bded-4294-a5aa-f896e440e818",
                 "resourcePath": "objects\\objThrowCounter\\objThrowCounter.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3fe9fdeb-52e0-480c-8ec9-3f4f7d6411a2",
+            "Value": {
+                "id": "99f437df-3ad6-4dfb-a009-7fd511230aa3",
+                "resourcePath": "sounds\\finishBeer\\finishBeer.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -276,6 +300,14 @@
                 "id": "3dd8e1aa-ac5d-4939-89c9-54f87daccc5f",
                 "resourcePath": "views\\65dd5a12-56b6-4d79-88c7-e0b64b451756.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6fd3f719-cb66-4ab8-9763-620166d50b10",
+            "Value": {
+                "id": "09567a22-8b76-413c-ada3-558d6a0483a4",
+                "resourcePath": "sounds\\throwBall\\throwBall.yy",
+                "resourceType": "GMSound"
             }
         },
         {

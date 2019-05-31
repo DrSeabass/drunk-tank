@@ -1,5 +1,6 @@
 //update based on input
 var selecting = false
+var armedStart = self.armed
 if self.armed {
 	if global.select{
 		selecting = true
@@ -27,6 +28,10 @@ if self.armed {
 	}
 }
 
+if (armedStart != self.armed){
+	audio_play_sound(moveSelect, 10, false);
+}
+
 // wrap
 if self.row < 0 {
 	self.row += 3
@@ -52,6 +57,7 @@ if pointing_at != noone {
 		if selecting{
 			pointedTo.selected = !pointedTo.selected
 			if pointedTo.selected {
+				audio_play_sound(onSelect, 10, false)
 				global.selected_players ++
 				if (global.selected_players == 3){
 					startThrowing()

@@ -11,6 +11,7 @@ self.step_index ++
 if (self.step_index > self.throw_steps){
 	if (abs(self.target.aim_x) < 10  &&  abs(self.target.aim_y) < 10){
 	  //hit
+		audio_play_sound(hitTarget, 10, false)
 		global.screenstate = throw_screen_state.plunging
 	}else{
 		global.screenstate = throw_screen_state.start_throw
