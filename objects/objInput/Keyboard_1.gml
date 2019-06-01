@@ -18,6 +18,6 @@ if keyboard_check_pressed(vk_space){
 	global.act = true
 }
 
-if keyboard_check_pressed(vk_enter){
+if keyboard_check_pressed(vk_space){
 	global.select = true
 }
