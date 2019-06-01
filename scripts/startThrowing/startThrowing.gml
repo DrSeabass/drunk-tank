@@ -4,7 +4,7 @@ var mleng = array_length_1d(global.all_players)
 
 var wipe = instance_create_depth(0,0,-100,objWiper)
 wipe.nextRoom = rThrow
-
+wipe.nextScreenState = throw_screen_state.start_throw
 
 for (playerIndex = 0; playerIndex < mleng; playerIndex++){
 	var teamMember = global.all_players[playerIndex]

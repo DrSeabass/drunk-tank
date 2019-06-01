@@ -60,6 +60,8 @@ if pointing_at != noone {
 				audio_play_sound(onSelect, 10, false)
 				global.selected_players ++
 				if (global.selected_players == 3){
+					self.visible = false
+					
 					startThrowing()
 				}
 			}else{

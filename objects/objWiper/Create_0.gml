@@ -1,0 +1,1 @@
+global.screenstate = throw_screen_state.wiping

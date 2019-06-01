@@ -1,6 +1,6 @@
 var ind = 0;
 var h_steps = ceil(room_width / sprite_width);
-var v_steps = ceil(room_height * 2 / self.maxStep);
+var v_steps = ceil(room_height * 2.5 / self.maxStep);
 var thisX = 0
 
 // set Y based on step s.t. top row moves down and off, bottom row moves up and off
